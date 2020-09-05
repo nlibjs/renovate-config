@@ -1,0 +1,12 @@
+{
+    "extends": [
+        ":ignoreModulesAndTests",
+        ":npm",
+        ":unpublishSafe",
+        ":semanticCommitTypeAll(deps)",
+        ":prNotPending",
+        ":prHourlyLimitNone",
+        ":label(dependencies)",
+        ":automergeMinor"
+    ]
+}
