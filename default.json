@@ -4,7 +4,7 @@
         ":npm",
         ":unpublishSafe",
         ":semanticCommitType(deps)",
-        ":semanticCommitScope(renovate)"
+        ":semanticCommitScope(renovate)",
         ":prNotPending",
         ":prHourlyLimitNone",
         ":label(dependencies)",
