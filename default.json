@@ -3,7 +3,8 @@
         ":ignoreModulesAndTests",
         ":npm",
         ":unpublishSafe",
-        ":semanticCommitTypeAll(deps)",
+        ":semanticCommitType(deps)",
+        ":semanticCommitScope(renovate)"
         ":prNotPending",
         ":prHourlyLimitNone",
         ":label(dependencies)",
