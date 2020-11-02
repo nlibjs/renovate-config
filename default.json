@@ -1,7 +1,6 @@
 {
     "extends": [
         ":enableRenovate",
-        ":ignoreModulesAndTests",
         ":npm",
         ":unpublishSafe",
         ":semanticCommitType(deps)",
@@ -10,5 +9,8 @@
         ":prHourlyLimitNone",
         ":label(dependencies)",
         ":automergeMinor"
+    ],
+    "ignorePaths": [
+        "**/node_modules/**"
     ]
 }
