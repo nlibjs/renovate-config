@@ -8,7 +8,9 @@
         ":prNotPending",
         ":prHourlyLimitNone",
         ":label(dependencies)",
-        ":automergeMinor"
+        ":automergeMinor",
+        ":pinDependencies",
+        ":pinDevDependencies"
     ],
     "ignorePaths": [
         "**/node_modules/**"
