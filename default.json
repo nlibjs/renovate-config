@@ -14,5 +14,8 @@
     ],
     "ignorePaths": [
         "**/node_modules/**"
+    ],
+    "suppressNotifications": [
+        "prIgnoreNotification"
     ]
 }
