@@ -14,6 +14,11 @@
         "**/node_modules/**"
     ],
     "suppressNotifications": [
-        "prIgnoreNotification"
+        "prIgnoreNotification",
+        "branchAutomergeFailure",
+        "lockFileErrors",
+        "artifactErrors",
+        "deprecationWarningIssues",
+        "onboardingClose"
     ]
 }
