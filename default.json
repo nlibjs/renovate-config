@@ -22,5 +22,6 @@
         "artifactErrors",
         "deprecationWarningIssues",
         "onboardingClose"
-    ]
+    ],
+    "prCreation": "not-pending"
 }
