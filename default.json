@@ -6,7 +6,7 @@
         ":semanticCommitType(deps)",
         ":semanticCommitScope(renovate)",
         ":prNotPending",
-        ":prHourlyLimitNone",
+        ":prHourlyLimit1",
         ":label(dependencies)",
         ":automergeMinor",
         ":pinDependencies",
