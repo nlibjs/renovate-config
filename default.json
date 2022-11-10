@@ -23,5 +23,6 @@
         "deprecationWarningIssues",
         "onboardingClose"
     ],
+    "prConcurrentLimit": 10,
     "prCreation": "not-pending"
 }
