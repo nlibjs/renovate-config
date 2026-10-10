@@ -10,8 +10,14 @@
         ":label(dependencies)",
         ":automergeMinor",
         ":pinDependencies",
-        ":pinDevDependencies"
+        ":pinDevDependencies",
+        "group:allNonMajor"
     ],
+    "timezone": "Asia/Tokyo",
+    "schedule": [
+        "before 9am on monday"
+    ],
+    "rebaseWhen": "conflicted",
     "ignorePaths": [
         "**/node_modules/**"
     ],
