@@ -11,6 +11,7 @@
         ":automergeMinor",
         ":pinDependencies",
         ":pinDevDependencies",
+        "group:monorepos",
         "group:allNonMajor"
     ],
     "timezone": "Asia/Tokyo",
