@@ -5,7 +5,6 @@
         ":unpublishSafe",
         ":semanticCommitType(deps)",
         ":semanticCommitScope(renovate)",
-        ":prNotPending",
         ":prHourlyLimit1",
         ":label(dependencies)",
         ":automergeMinor",
@@ -31,5 +30,5 @@
         "onboardingClose"
     ],
     "prConcurrentLimit": 10,
-    "prCreation": "not-pending"
+    "prCreation": "immediate"
 }
