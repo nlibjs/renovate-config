@@ -2,7 +2,7 @@
     "extends": [
         ":enableRenovate",
         ":npm",
-        ":unpublishSafe",
+        "security:minimumReleaseAgeNpm",
         ":semanticCommitType(deps)",
         ":semanticCommitScope(renovate)",
         ":prHourlyLimit1",
@@ -26,7 +26,6 @@
         "branchAutomergeFailure",
         "lockFileErrors",
         "artifactErrors",
-        "deprecationWarningIssues",
         "onboardingClose"
     ],
     "prConcurrentLimit": 10,
